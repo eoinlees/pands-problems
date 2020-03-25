@@ -20,3 +20,5 @@ bmi = round(weight/hsqr,2)
 print("Your bmi is:", bmi)
 
 #Notes: review lecture 1 for basics on variables / inputs etc.. 
+# Add in bmi definitions? If over then etc...
+

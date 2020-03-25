@@ -3,5 +3,6 @@
 # letter in reverse order.
 
 string = input("Please enter a sentence: ")
-print(string)
 
+#List indexing and slicing - A whrlwind tour of python Page 32
+print(string[::-2])
