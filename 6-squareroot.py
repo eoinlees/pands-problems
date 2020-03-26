@@ -5,8 +5,17 @@
 
 num = float(input("Please enter a positive number: "))
 
+def newtonSqr(number, numberIterations = 300):
+    a = float(number)
+    for i in range(numberIterations):
+        number = 0.5 * (number + (a/number))
+    return number
+
+# Followed example uses here : https://medium.com/@sddkal/newton-square-root-method-in-python-270853e9185d
+
+ans = newtonSqr(num)
+
 if num <= 0:   
     print("You must enter a positive number for the program to run")
-
-#Test
-print(num)
+else:
+    print("The square root of {} is approx. {}".format(num,ans))
