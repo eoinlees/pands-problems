@@ -8,7 +8,7 @@ x = int(input("Please enter a posotive integer: "))
 
 if x <= 0:
     print("Please enter a positive number.")
-elif x % 2 ==0
+elif x % 2 == 0
     print(x)
 
-#Return to at later date
+# finish on 31 03/20
