@@ -9,7 +9,7 @@ num = float(input("Please enter a positive number: "))
 # Define function
 def newtonSqr(number, numberIterations = 300):
     a = float(number)
-    for i in range(numberIterations):
+    for _ in range(numberIterations): #Using "_" to declare unused variable
         number = 0.5 * (number + (a/number))
     return number
 
