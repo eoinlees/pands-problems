@@ -5,7 +5,7 @@
 # program ends when current value is 1
 
 # Get positive value from input
-x = int(input("Please enter a posotive integer: "))
+x = int(input("Please enter a positive integer: "))
 
 # Return  
 if x <= 0:

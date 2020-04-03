@@ -2,13 +2,13 @@
 # This program outputs whether today is a weekday or not. 
 # It runs dependant on the day of the week
 
-# Import datetime function to python
+# Import datetime module to python
 import datetime
 
 # Create tuple to assign days of week in words. 
 L = {0:"Monday", 1:"Tuesday", 2:"Wednesday", 3:"Thursday", 4:"Friday", 5:"Saturday", 6:"Sunday"}
 
-# Get day from imported functions
+# Get day from imported module
 today = datetime.datetime.today().weekday()
 
 # Assign name to day number imported
